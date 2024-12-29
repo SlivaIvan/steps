@@ -23,11 +23,11 @@ export function Forms ({ addTrening }){
         <div className="forms">
             <form className="forms" onSubmit={onForms}>
                 <div className="inTab">
-                    <label htmlFor="date">Дата (ДД.ММ.ГГ)</label>
+                    <label className="l" htmlFor="date">Дата (ДД.ММ.ГГ)</label>
                     <input id="date" name="date" type="date" required  onChange={handlerChange} inputMode="numeric"/>
                 </div>
                 <div className="inTab">
-                    <label htmlFor="number">Пройдено км</label>
+                    <label className="l" htmlFor="number">Пройдено км</label>
                     <input id="number" name="distance" type="number" required  onChange={handlerChange} inputMode="numeric"/>
                 </div>
                 <div className="inBtn">

@@ -14,9 +14,11 @@
 }
 
 .forms{
+  margin-top: 20px;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: flex-end;
 }
 
@@ -31,6 +33,15 @@
   text-align: center;
   margin-top: 10px;
   
+}
+
+.inTab{
+  position: relative;
+}
+
+.l {
+ position: absolute;
+ top: -20px;
 }
 
 .btn{
